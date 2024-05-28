@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+   <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Sight-Seeing</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="kullu.css">
+    </head>
+
+    <body>
+      <header>
+            <div class="topnav">
+                <div class="image"></div>
+                <img src="logo.png" alt="Logo" id="logo">
+                <div class="logreg">
+                     <p>Hello, sign in /Register</p>
+                <p>Tourist  Service Provider <div class="dropdown">
+    <button class="dropbtn">Account
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="/account">Profile</a>
+      <a href="/">Membership & Subscription</a>
+       <a href="/logout">Sign out</a>
+    </div>
+  </div></p>
+</div>
+                
+                
+               
+            </div>
+            
+        </header>
+        <div class="butn">
+<p>Pre-designed Tours</p>
+        <p>Customized Tour Design</p>
+         <p>Holidays By Interest</p>
+         <p>Top Trending Destinations</p>
+         <p>Package Tours</p>
+         <p>Services</p>
+        </div>
+
+<div class="regioninfo">
+    <h6>REGION/ NORTH INDIA/ HIMACHAL PRADESH</h6>
+    </div>
+        <div class="sub">
+            <p>{{info}}</p>
+            <p id="sel">Selected Destination: {{dest}}</p>
+            <form action="/kalatop" method="POST" >
+          <input type="radio" id="dal" name="kala" value="0">
+          <label for="dal">Visit Kalatop during sightseeing from Dalhousie.</label>
+            <br>
+            <p id="or">OR</p>
+            <input type="radio" id="dal1" name="kala" value="1">
+          <label for="dal1">Visit Kalatop for trekking and famous adventure sports</label>
+          <button id="continue">Proceed</button>  
+            </form>
+        </div>
+    </body> 
+</html>

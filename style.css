@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.sourcedest{
+    padding-left: 2%;
+    margin-top: 2%;
+}
+#destselec{
+    padding-left: 2%;
+    margin-top: 3%;
+    display: block;
+}
+#btn{
+    margin-top: 2%;
+    margin-left: 2%;
+    cursor: pointer;
+}
+#dropdown-container{
+    display:block;
+    margin-left: 3%;
+}

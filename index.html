@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="sourcedest">
+            <label>Journey starts at</label>
+        <input>
+        <label>Journey ends at</label>
+        <input>
+        </div>
+        <p id="destselec">Destinations Selected:</p>
+        <div id='input-cont'>
+            <!--Input container-->
+        </div>
+        <button id="btn" onclick="dynamicDropdownList()">Add Place</button>   
+<br><br>
+<!-- container to load dynamic dropdown list -->
+<div id="dropdown-container"></div>
+        <div id="sight"></div>
+        <script>
+            //country data in string array format
+            var countries = ["Select Place","Shimla","Mandi","Kullu","Kasol","Manali","Solang Valley/Solang Nullah","Dalhousie","Khajiar","Dharamsala","Palampur","McLeod Ganj","Bhawarna","Baijnath","Sidhbari","Jwalamukhi","Sangla","Rekong Peo","Kalpa","Sarahan","Nako","Keylong","Kaza","Tabo","Chandratal via Kunzam Pass",
+        "Kufri","Fagu","Naldehra","Chail","Green Valley","Kali Bari Temple","Christ Church","Himachal State Museum","Tara Devi Temple","Jakhoo Hill and Temple","The Ridge","Mall Road","Indian Institute of Advance Study","Gaiety Heritage Cultural Complex","AnnaDale","Narkanda"];
+             
+            //This method calls on button click
+            function dynamicDropdownList(){
+             
+                var dropdown = document.createElement("select");
+                for(var i=0;i<countries.length;i++){     
+                    var opt = document.createElement("option"); 
+                    opt.text = countries[i];
+                    opt.value = countries[i];
+                    dropdown.options.add(opt);      
+                }
+                 
+                //Load the dynamically created dropdown in container
+                var container=document.getElementById("dropdown-container");
+                container.appendChild(dropdown);
+            }
+             
+            </script>
+    </body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+   <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Sight-Seeing</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="kalatop.css">
+    </head>
+
+    <body>
+        <div class="sub">
+            <p>{{msg}}</p>
+            <p>{{note}}</p>
+            <p>Selected Destination: {{dest}}</p>
+            <form action="/khajiar" method="POST" >
+           
+          <input type="radio" id="dal" name="optradio" value="add_dal">
+          <label for="dal">Visit Khajiar during sight-seeing from Dalhousie.Add Dalhousie.</label>
+            <br>
+            <p>OR</p>
+             <p>Do you want to stay at {{dest}}?</p>
+            <input type="radio" id="dal1" name="optradio" value="yes">
+          <label for="dal1">Yes</label>
+          <input type="radio" id="dal1" name="optradio" value="no">
+          <label for="dal1">No</label>
+          <button id="continue">Proceed</button>  
+            </form>
+        </div>
+    </body> 
+</html>

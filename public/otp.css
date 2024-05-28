@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(63, 63, 63);
+}
+.container{
+    margin:10%;
+    margin-top:2%;
+    margin-bottom:3%;
+    background-color:rgb(148, 148, 148);
+    padding-bottom: 4%;
+}
+.logdetails{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.design{
+    background-color: #fff;
+    color: rgba(168, 27, 112, 0.767);
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.enterdetails{
+    padding: 2%;
+    margin: 1%;
+    border: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    background-color: rgb(187, 187, 187);
+    color: #fff;
+    width: 70%;
+    
+}
+.enterotp{
+    padding: 2%;
+    margin: 1%;
+    border: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    background-color: rgb(187, 187, 187);
+    color: rgb(34, 31, 31);
+    width: 70%;
+    
+}
+#first{
+    margin-top: 7%;
+}
+.logbtn{
+    margin-top: 5%;
+    margin-bottom: 3%;
+    padding: 3%;
+    cursor: pointer;
+    background-color: rgb(43, 23, 130);
+    color: #fff;
+    border-radius: 10%;
+    border: none;
+    font-weight: 600;
+}
+
+.delbtn{
+    margin-top: 5%;
+    margin-bottom: 3%;
+    padding: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+    cursor: pointer;
+    background-color: #800a0a;
+    color: #fff;
+    border: none;
+    font-weight: 600; 
+}
+input:focus{
+    outline: none;
+}
+
+.topnav{
+    background-color:rgba(168, 27, 112, 0.767);
+    overflow: hidden;
+    padding: 1%;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 600;
+    color: #fff;
+    font-size: 20px;
+}
+#incorrect{
+    color:rgb(248, 248, 188);
+    padding-top: 3%;
+    padding-bottom: 1%;
+
+} 
+
+
+
+#msg{
+    text-align: center;
+    color: rgb(149, 32, 32);
+    font-weight: 600;
+}
+#labemail,#labnewpass,#labnewcon{
+    text-align: center;
+    color: #fff;
+   margin-top: 2%;
+    
+}
+.design{
+    background-color: #fff;
+    color: rgb(43, 23, 130);
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 18px;
+}
+
+.delinstruc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.delinstruc ul{
+    color: #d9f8fba8;
+}
+
+.delinstruc ul li{
+    list-style-type: square;
+}
+
+#infoexis{
+    color:rgb(99, 11, 11);
+    text-align: center;
+    padding-top: 1%;
+    font-weight: 500;
+    margin-left:25%;
+    margin-right: 25%;
+    margin-top: 0.5%;
+    padding-bottom: 1%;
+}
+
+#info{
+    color:rgb(248, 248, 188);
+    text-align: center;
+    padding-top: 2%;
+    font-weight: 500;
+    margin-left:25%;
+    margin-right: 25%;
+    margin-top: 0.5%;
+    padding-bottom: 1%;
+}
+
+#successexis{
+    color:rgb(248, 248, 188);
+    text-align: center;
+    padding-top: 1%;
+    font-weight: 500;
+    margin-left:25%;
+    margin-right: 25%;
+    margin-top: 0.5%;
+    padding-bottom: 1%;
+}
+
+#back{
+float:right;
+color: rgb(248, 248, 188);
+padding-top: 1%;
+padding-right: 1%;
+}
+
+@media only screen and (min-width:687px)
+    {
+        .container{
+            margin-left:20%;
+            margin-right:20%;
+        }
+    }
+
+    @media only screen and (min-width:836px)
+    {
+        .container{
+            margin-left:30%;
+            margin-right:30%;
+        }
+    }
+
+    @media only screen and (min-width:1148px)
+    {
+        .container{
+            margin-left:35%;
+            margin-right:35%;
+        }
+    }
+    @media only screen and (min-width:1397px)
+    {
+        .container{
+            margin-left:40%;
+            margin-right:40%;
+            margin-top: 1%;
+        }
+    }

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="quotereader_login.css">
+        
+    </head>
+    <body>
+        <header>
+            <div class="topnav">
+                <div class="image"></div>
+                <img src="logo.png" alt="Logo" id="logo">
+                <div class="logreg">
+                     <p>Hello,</p>
+                <p>Tourist  Service Provider <div class="dropdown">
+    <button class="dropbtn">Account
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="/account">Profile</a>
+      <a href="/">Membership & Subscription</a>
+       <a href="/logout">Sign out</a>
+    </div>
+  </div></p>
+</div>
+                
+                
+               
+            </div>
+            
+        </header>
+        <div class="butn">
+<p>Pre-designed Tours</p>
+        <p>Customized Tour Design</p>
+         <p>Holidays By Interest</p>
+         <p>Top Trending Destinations</p>
+         <p>Package Tours</p>
+         <p>Services</p>
+        </div>
+
+        <div class="design"><marquee direction="letf" width="50%">Submit your queries to us and get clarified</marquee></div>
+        <div id="logout">{{logoutt}}</div>
+        <div id="invalog">{{logout}}</div>
+        <div id="regisuccess">{{regissucc}}</div>
+        <div class="container">
+        <form class="logdetails" action="/query" method="POST">
+            <input class="enterdetails" placeholder="Email" name="email" id="first" required>
+            <textarea class="enterdetails" id="query" placeholder="Write your query here" name="password"></textarea>
+            <button class="logbtn" type="submit" value="">Submit</button>
+            
+        </form>
+    </div>
+    
+    </body>
+</html>

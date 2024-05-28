@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="otp.css">
+        
+    </head>
+    <body>
+        <header>
+            <div class="topnav">
+                Bharat TripXpert
+            </div>
+        </header>
+        <div class="design"></div>
+        <div class="container">
+        <form class="logdetails" action="/passotp" method="POST">
+        <label id="labemail">Enter the OTP sent to your email</label>
+            <input class="enterotp" placeholder="OTP" name="otp" type="number" id="first" required>
+            <button class="logbtn" type="submit" value="">Submit</button>
+            <p id="incorrect">*Incorrect OTP will not let you create your account on MirrorOfThoughts.</p>
+
+        </form>
+    </div>
+   
+    </body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="quotereader_regis.css">
+        
+    </head>
+    <body>
+               <header>
+            <div class="topnav">
+                <div class="image"></div>
+                <img src="logo.png" alt="Logo" id="logo">
+                <div class="logreg">
+                     <a href="/login">Hello, Sign In</a>
+                <p>Tourist  Service Provider <div class="dropdown">
+    <button class="dropbtn">Account
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="/account">Profile</a>
+      <a href="/">Membership & Subscription</a>
+       <a href="/logout">Sign out</a>
+    </div>
+  </div></p>
+</div>
+                
+                
+               
+            </div>
+            
+        </header>
+        <div class="butn">
+<p>Pre-designed Tours</p>
+        <p>Customized Tour Design</p>
+         <p>Holidays By Interest</p>
+         <p>Top Trending Destinations</p>
+         <p>Package Tours</p>
+         <p>Services</p>
+        </div>
+        <div class="design"><marquee direction="left" width="50%">Start your journey with  <strong>Bharat TripXpert</strong></marquee></div>
+        <div id="infoexis">{{info}}</div>
+        <div class="container">
+        <form class="alldetails" action="/register" method="POST">
+            <input id="first" class="details" placeholder="Username" name="name" required>
+            <input class="details" placeholder="Email" name="email" type="email" required>
+            <input class="details" placeholder="Age" name="age" required>
+            <input class="details" id="passwrd" placeholder="Password" name="password"  required>
+            <input class="details" id="cpasswrd" placeholder="Confirm Password" name="conpassword"  required>
+            
+            <button class="btn" type="submit" value="">Create An Account</button>
+        </form>
+        <div class="result"></div>
+        
+    </div>
+
+   
+   
+    
+    </body>
+</html>

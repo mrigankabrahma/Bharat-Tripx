@@ -1,0 +1,195 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #fff;
+}
+.topnav{
+    background-color: black;
+    color: #fff;
+    padding-top: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.logreg{
+    margin-left: 55%;
+    margin-right: 10%;
+}
+
+.logreg a{
+    text-decoration: none;
+    color: #fff;
+}
+.sp{
+    padding-left: 3%;
+    padding-right: 1%;
+}
+#logo{
+    width: 15%;
+    height: 5%;
+    float: right;
+    
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+    margin-left: 100%;
+    display: inline;
+    padding-bottom: 1%;
+  }
+  
+  /* Style the dropdown button to fit inside the topnav */
+  .dropdown .dropbtn {
+    border: none;
+    outline: none;
+    color: white;
+    padding: 1%;
+    background-color: inherit;
+    margin: 0;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  
+  /* Style the dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(18, 17, 17);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Style the links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: #fff;
+    padding: 5%;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a dark background on topnav links and the dropdown button on hover */
+   .dropdown:hover .dropbtn {
+    color: rgb(216, 210, 222);
+    cursor: pointer;
+  }
+  
+  /* Add a grey background to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+    color: rgb(133, 19, 19);
+  }
+  
+  /* Show the dropdown menu when the user moves the mouse over the dropdown button */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .butn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 1%;
+    background-color: #5f5c5c;
+    padding-bottom: 1%;
+}
+.butn p{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+}
+h2{
+    color: rgb(180, 24, 24);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-left: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.region{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+/* Dropdown Button */
+.dropbtn1 {
+    background-color: #fff;
+    color: rgb(104, 4, 104);
+    padding: 10%;
+    font-size: 14px;
+    border: none;
+    font-weight: 600;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown1 {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content1{
+    display: none;
+    position: absolute;
+    background-color: rgb(59, 7, 59);
+    /*min-width: 160px;*/
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content1 a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content1 a:hover {background-color: rgb(194, 132, 51);}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown1:hover .dropdown-content1 {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown1:hover .dropbtn1 {color: rgb(11, 11, 176)}
+
+  .row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .row1 img{
+    width: 32%;
+    height: 10%;
+    padding-top: 1%;
+
+  }
+
+  .row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-bottom: 5%;
+  }
+
+  .row2 img{
+    width: 32%;
+    height: 10%;
+    padding-top: 1%;
+
+  }

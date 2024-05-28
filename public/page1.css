@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #fff;
+}
+.topnav{
+    background-color: black;
+    color: #fff;
+    padding-top: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.logreg{
+    margin-left: 55%;
+    margin-right: 10%;
+}
+
+.logreg a{
+    text-decoration: none;
+    color: #fff;
+}
+.sp{
+    padding-left: 3%;
+    padding-right: 1%;
+}
+#logo{
+    width: 15%;
+    height: 5%;
+    float: right;
+    
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+    margin-left: 100%;
+    display: inline;
+    padding-bottom: 1%;
+  }
+  
+  /* Style the dropdown button to fit inside the topnav */
+  .dropdown .dropbtn {
+    border: none;
+    outline: none;
+    color: white;
+    padding: 1%;
+    background-color: inherit;
+    margin: 0;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  
+  /* Style the dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(18, 17, 17);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Style the links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: #fff;
+    padding: 5%;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a dark background on topnav links and the dropdown button on hover */
+   .dropdown:hover .dropbtn {
+    color: rgb(216, 210, 222);
+    cursor: pointer;
+  }
+  
+  /* Add a grey background to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+    color: rgb(133, 19, 19);
+  }
+  
+  /* Show the dropdown menu when the user moves the mouse over the dropdown button */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .butn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 1%;
+    background-color: #5f5c5c;
+    padding-bottom: 1%;
+}
+.butn p{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.design{
+    float:right;
+    margin-right: 8%;
+    padding-top: 2%;
+}
+.design p{
+    color: rgb(40, 6, 124);
+    font-weight: 600;
+    font-size: 14px;
+    padding-top: 3%;
+}
+h2{
+    color: rgb(180, 24, 24);
+    padding-top: 3%;
+    margin-left:37%;
+    margin-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#page1{
+    width: 24%;
+    height: 10%;
+    margin-left: 40%;
+}
+
